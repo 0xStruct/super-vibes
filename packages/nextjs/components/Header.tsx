@@ -39,7 +39,7 @@ export const Header = () => {
       <li>
         <NavLink href="/">Home</NavLink>
       </li>
-      <li>
+      {/*<li>
         <NavLink href="/debug">
           <BugAntIcon className="h-4 w-4" />
           Debug Contracts
@@ -56,7 +56,7 @@ export const Header = () => {
           <MagnifyingGlassIcon className="h-4 w-4" />
           Block Explorer
         </NavLink>
-      </li>
+  </li>*/}
     </>
   );
 
@@ -87,11 +87,12 @@ export const Header = () => {
         </div>
         <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6">
           <div className="flex relative w-10 h-10">
-            <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
+            {/*<Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />*/}
+            <div className="text-3xl">🎉</div>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">Scaffold-eth</span>
-            <span className="text-xs">Ethereum dev stack</span>
+            <span className="font-bold leading-tight">Super Vibes 🎉</span>
+            <span className="text-xs">Send ominchain NFT cards</span>
           </div>
         </Link>
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">{navLinks}</ul>

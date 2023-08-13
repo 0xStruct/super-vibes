@@ -23,7 +23,7 @@ export const Footer = () => {
                 <span>{nativeCurrencyPrice}</span>
               </div>
             )}
-            {getTargetNetwork().id === hardhat.id && <Faucet />}
+            {/*getTargetNetwork().id === hardhat.id && <Faucet />*/}
           </div>
           <SwitchTheme className="pointer-events-auto" />
         </div>
@@ -33,37 +33,27 @@ export const Footer = () => {
           <div className="flex justify-center items-center gap-2 text-sm w-full">
             <div>
               <a
-                href="https://github.com/scaffold-eth/se-2"
+                href="https://github.com/0xstruct/super-vibes"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                Fork me
+                Source code
               </a>
             </div>
             <span>·</span>
             <div>
-              Built with <HeartIcon className="inline-block h-4 w-4" /> at 🏰{" "}
+              Built with <HeartIcon className="inline-block h-4 w-4" /> by { }
               <a
-                href="https://buidlguidl.com/"
+                href="https://github.com/0xStruct"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                BuidlGuidl
+                0xStruct
               </a>
             </div>
             <span>·</span>
-            <div>
-              <a
-                href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA"
-                target="_blank"
-                rel="noreferrer"
-                className="underline underline-offset-2"
-              >
-                Support
-              </a>
-            </div>
           </div>
         </ul>
       </div>
