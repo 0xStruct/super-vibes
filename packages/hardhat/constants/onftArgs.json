@@ -1,0 +1,22 @@
+{
+  "localhost": {
+    "startMintId": 1,
+    "endMintId": 10
+  },
+  "fuji": {
+    "startMintId": 11,
+    "endMintId": 20
+  },
+  "goerli": {
+    "startMintId": 21,
+    "endMintId": 30
+  },
+  "optimism-goerli": {
+    "startMintId": 31,
+    "endMintId": 40
+  },
+  "mumbai": {
+    "startMintId": 41,
+    "endMintId": 50
+  }
+}
